@@ -2,166 +2,296 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Computer Science Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cedric Xu's professional portfolio">
+  <title>Cedric Xu | IT & Computer Networks Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="logo" href="#home">CX<span>.</span></a>
 
-    <!-- Navigation -->
-    <header>
-        <nav class="navbar">
-            <a href="#" class="logo">My Portfolio</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
 
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <main>
+    <!-- HOME -->
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+        <h1>Hi, I'm <span>Cedric Xu.</span></h1>
+        <h2>Computer Informations Student | Aspiring IT Professional</h2>
 
-    <!-- Home Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
-            <h1>Your Name</h1>
-            <h2>Computer Science Student</h2>
-
-            <p>
-                Aspiring Software Developer interested in
-                programming, networking, technology, and
-                software development.
-            </p>
-
-            <a href="#projects" class="button">View My Projects</a>
-            <a href="resume.pdf" class="button secondary">Download Resume</a>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="section">
-        <h2>About Me</h2>
-
-        <p>
-            Welcome to my professional portfolio. I am a Computer
-            Science student working toward developing my technical
-            knowledge and practical software development skills.
-
-            I am interested in programming, computer networks,
-            operating systems, databases, and modern technology.
-
-            Through my coursework and personal projects, I have
-            gained experience solving technical problems, writing
-            code, working with Linux environments, and developing
-            software applications.
-
-            My professional goal is to begin a career in the
-            technology industry where I can continue learning,
-            contribute to software projects, and develop solutions
-            to real-world problems.
-
-            I am especially interested in opportunities that allow
-            me to apply my Computer Science education while
-            expanding my experience with software engineering,
-            networking, and artificial intelligence.
-        </p>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="section">
-        <h2>My Projects</h2>
-
-        <div class="project-container">
-
-            <div class="project-card">
-                <h3>AI Assistant Project</h3>
-                <p>
-                    An AI-assisted software application developed
-                    using modern artificial intelligence tools.
-                </p>
-                <p><strong>Technologies:</strong> To be determined</p>
-            </div>
-
-            <div class="project-card">
-                <h3>Computer Networks Project</h3>
-                <p>
-                    A network simulation project comparing TCP
-                    Reno and TCP NewReno using ns-3.
-                </p>
-                <p><strong>Technologies:</strong> C++, ns-3, Linux</p>
-            </div>
-
-            <div class="project-card">
-                <h3>Personal Project</h3>
-                <p>
-                    A personal software development project
-                    demonstrating programming and problem-solving.
-                </p>
-                <p><strong>Technologies:</strong> To be determined</p>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="section">
-        <h2>Technical Skills</h2>
-
-        <div class="skills-container">
-            <div class="skill-card">
-                <h3>Programming</h3>
-                <p>C, C++, Java, Python</p>
-            </div>
-
-            <div class="skill-card">
-                <h3>Systems</h3>
-                <p>Linux, Windows, Virtual Machines</p>
-            </div>
-
-            <div class="skill-card">
-                <h3>Networking</h3>
-                <p>TCP/IP, ns-3, Socket Programming</p>
-            </div>
-
-            <div class="skill-card">
-                <h3>Development Tools</h3>
-                <p>GitHub, Visual Studio, AI Tools</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Resume Section -->
-    <section id="resume" class="section">
-        <h2>My Resume</h2>
-        <p>View or download my professional resume.</p>
-        <a href="resume.pdf" class="button">Download Resume</a>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-        <h2>Contact Me</h2>
-
-        <p>Email: Your Email Address</p>
-
-        <p>
-            GitHub:
-            <a href="https://github.com/cedricxu2126">
-                github.com/cedricxu2126
-            </a>
+        <p class="hero-description">
+          I'm developing my skills in programming, computer networks,
+          databases, and technical troubleshooting. This portfolio showcases
+          my academic projects, technical skills, and professional growth.
         </p>
 
-        <p>LinkedIn: Add Your LinkedIn Profile</p>
+        <div class="hero-buttons">
+          <a class="button primary-button" href="#projects">
+            View My Projects
+          </a>
+          <a class="button secondary-button" href="#contact">
+            Contact Me
+          </a>
+        </div>
+
+        <div class="hero-socials">
+          <a href="https://github.com/cedricxu2126" target="_blank"
+             rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/" target="_blank"
+             rel="noopener noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-photo">
+        <img src="profile.jpg" alt="Professional photo of Cedric Xu">
+        <div class="photo-caption">
+          <span class="status-dot"></span>
+          Building skills. Creating projects.
+        </div>
+      </div>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2026 Your Name | Computer Science Portfolio</p>
-    </footer>
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About <span>Me</span></h2>
+      </div>
 
+      <div class="content-card about-card">
+        <p>
+          My name is Cedric Xu, and I am a student building a foundation
+          in information technology, computer science, and software
+          development. Through my coursework and independent practice,
+          I have been developing an understanding of how computer systems
+          work, how software is created, and how technology can solve
+          practical problems.
+        </p>
+
+        <p>
+          My academic work has introduced me to programming in C/C++, Java,
+          Python, computer networking, database design, Linux environments, 
+          and operating system concepts. I have worked on assignments involving
+          client-server communication, TCP networking simulations, and
+          relational database development. These projects have helped me
+          connect classroom concepts with practical technical work.
+        </p>
+
+        <p>
+          I am particularly interested in technical troubleshooting, networking,
+          system administration, and the growing role of artificial
+          intelligence in technology. I want to continue improving my
+          programming abilities, learning new tools, and becoming more
+          comfortable designing, testing, and documenting software.
+        </p>
+
+        <p>
+          My professional goal is to begin a career in the technology field
+          where I can apply what I have learned, contribute to a team, and
+          continue developing as a technical professional. I value
+          problem-solving, persistence, communication, and continuous
+          learning. I created this portfolio to document my progress and
+          provide an organized place to showcase my skills and projects.
+        </p>
+
+        <p>
+          <strong>Education:</strong> [Lamar University | Computer Information Systems]
+          <br>
+          <strong>Expected graduation:</strong> [December 2026]
+          <br>
+          <strong>Career interests:</strong> [IT Technician | IT Specialist]
+        </p>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT I'VE BEEN WORKING ON</p>
+        <h2>Featured <span>Projects</span></h2>
+        <p class="section-description">
+          A selection of academic and personal projects that demonstrate
+          my technical development.
+        </p>
+      </div>
+
+      <div class="project-grid">
+        <article class="content-card project-card">
+          <div class="project-number">01 / NETWORKING</div>
+          <h3>TCP Reno & NewReno Simulation</h3>
+          <p>
+            A C++ project using ns-3 to simulate TCP congestion control.
+            The project compares Reno and NewReno behavior using congestion
+            window measurements, throughput results, and network performance.
+          </p>
+          <div class="tags">
+            <span>C++</span>
+            <span>ns-3</span>
+            <span>Linux</span>
+            <span>TCP/IP</span>
+          </div>
+          <a class="project-link" href="https://github.com/cedricxu2126">
+            View GitHub ↗
+          </a>
+        </article>
+
+        <article class="content-card project-card">
+          <div class="project-number">02 / PROGRAMMING</div>
+          <h3>Client-Server Socket Programming</h3>
+          <p>
+            A C programming assignment exploring communication between
+            a client and server. The application includes directory
+            operations and demonstrates fundamental socket programming
+            concepts.
+          </p>
+          <div class="tags">
+            <span>C</span>
+            <span>Linux</span>
+            <span>Sockets</span>
+            <span>Networking</span>
+          </div>
+          <a class="project-link" href="https://github.com/cedricxu2126">
+            View GitHub ↗
+          </a>
+        </article>
+
+        <article class="content-card project-card">
+          <div class="project-number">03 / DATABASES</div>
+          <h3>Real Estate Database</h3>
+          <p>
+            A relational database project involving real estate agencies,
+            agents, and property listings. The project focuses on database
+            structure, relationships, SQL queries, and normalization.
+          </p>
+          <div class="tags">
+            <span>SQL</span>
+            <span>Database Design</span>
+            <span>LocalDB</span>
+          </div>
+          <a class="project-link" href="https://github.com/cedricxu2126">
+            View GitHub ↗
+          </a>
+        </article>
+
+        <article class="content-card project-card">
+          <div class="project-number">04 / ARTIFICIAL INTELLIGENCE</div>
+          <h3>AI Assistant</h3>
+          <p>
+            A project for exploring AI-assisted software development.
+            Project details, features, technologies, and source code will
+            be added as the application is developed.
+          </p>
+          <div class="tags">
+            <span>Artificial Intelligence</span>
+            <span>Software Development</span>
+          </div>
+          <a class="project-link" href="#contact">
+            Project information coming soon
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">MY TECHNICAL TOOLKIT</p>
+        <h2>Technical <span>Skills</span></h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="content-card skill-card">
+          <h3>Programming</h3>
+          <p>C · C++ · Python · Java · SQL</p>
+        </div>
+
+        <div class="content-card skill-card">
+          <h3>Systems & Networking</h3>
+          <p>Linux · Windows · TCP/IP · ns-3 · Socket Programming</p>
+        </div>
+
+        <div class="content-card skill-card">
+          <h3>Databases</h3>
+          <p>Relational Databases · SQL Server · Database Design</p>
+        </div>
+
+        <div class="content-card skill-card">
+          <h3>Development Tools</h3>
+          <p>GitHub · Visual Studio · Virtual Machines · AI Tools</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESUME -->
+    <section class="section" id="resume">
+      <div class="section-heading">
+        <p class="eyebrow">MY EXPERIENCE & EDUCATION</p>
+        <h2>My <span>Resume</span></h2>
+      </div>
+
+      <div class="content-card resume-card">
+        <div>
+          <h3>Download My Resume</h3>
+          <p>
+            View my education, technical skills, projects, and professional
+            experience in PDF format.
+          </p>
+          <a class="button primary-button" href="resume.pdf" download>
+            Download Resume PDF
+          </a>
+        </div>
+
+        <div class="resume-preview">
+          <iframe src="resume.pdf" title="Cedric Xu Resume"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">FIND ME HERE</p>
+        <h2>Get In <span>Touch</span></h2>
+        <p class="section-description">
+          Feel free to reach out about opportunities, projects, or
+          professional connections.
+        </p>
+      </div>
+
+      <div class="content-card contact-card">
+        <p><strong>Email:</strong>
+          <a href="mailto:YOUR_EMAIL@example.com">
+            cedricxu0421@gmail.com
+          </a>
+        </p>
+        <p><strong>GitHub:</strong>
+          <a href="https://github.com/cedricxu2126" target="_blank"
+             rel="noopener noreferrer">github.com/cedricxu2126</a>
+        </p>
+        <p><strong>LinkedIn:</strong>
+          <a href="https://www.linkedin.com/" target="_blank"
+             rel="noopener noreferrer">https://www.linkedin.com/in/cedric-xu-0421lm26/</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Cedric Xu. Built with HTML and CSS.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
 </body>
 </html>
